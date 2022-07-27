@@ -1,0 +1,26 @@
+{
+	"name" : "OmarPRE/paubox",
+	"description" : "A PHP package for the Paubox Transactional Email API (Fork of original paubox-php SDK)",
+	"homepage" : "https://github.com/OmarPRE/paubox",
+	"license" : "Apache-2.0",
+	"require" : {
+		"php": "^7.3",
+		"nategood/httpful" : "*",
+		"vlucas/phpdotenv" : "^4.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^5.7.9"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Paubox\\" : "src/",
+			"Paubox\\Mail\\" : "src/mail/",
+			"Paubox\\Service\\" : "src/service/"
+		}
+	},
+	"archive" : {
+		"exclude" : [
+			"/src/tests"
+		]
+	}
+}
