@@ -229,7 +229,7 @@ print_r($resp);
 <a name="#contributing"></a>
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/omarpre/paubox-php.
+Bug reports and pull requests are welcome on GitHub at https://github.com/omarpre/paubox.
 
 
 <a name="#license"></a>
