@@ -1,4 +1,4 @@
-#### This is fork of Paubox php SDK, to make it compatible with Laravel version 7
+#### This is fork of Paubox php SDK, to make it compatible with Laravel version 9
 
 ------------
 
